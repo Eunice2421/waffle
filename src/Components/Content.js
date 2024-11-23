@@ -8,7 +8,7 @@ function Content() {
             <div className='sub1'>
                 <img src={waffle1} alt="waffle1" className='waffles'></img>
                 <p className='para'>The best waffles in the world.<br></br>
-                    The taste is delicious</p>
+                    The taste is delicious. this is two favlour are chocolate and vanilla.</p>
             </div>
             <div className='sub1'>
                 <img src={waffle2} alt="waffle1" className='waffles'></img>
