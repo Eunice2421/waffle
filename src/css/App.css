@@ -1,12 +1,13 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
     margin: 0;
-
 }
+
+
+
 
 .header {
     display: flex;
@@ -28,6 +29,17 @@
     color: rgb(12, 16, 255)
 }
 
+.menu {
+    width: 50%;
+    height: 60px;
+    margin-top: 15px;
+}
+
+.menu Link:hover {
+    background-color: rgb(240, 176, 238);
+  
+}
+
 .pic1,
 .pic2 {
     width: 130px;
@@ -35,11 +47,20 @@
 }
 
 .ibox {
-    margin: 70px 70px 70px 300px;
+    margin: 50px 70px 70px 300px;
     width: 50%;
     height: 30px;
     padding: 30px;
     font-size: x-large;
+}
+.btn{
+    width: 600px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 350px;
+
+    gap: 20px;
 }
 
 .waffles {
@@ -49,10 +70,10 @@
 
 }
 
-.para { 
+.para {
     font-style: italic;
     font-weight: 600;
-font-size: large;
+    font-size: large;
 }
 
 .container {
@@ -60,16 +81,24 @@ font-size: large;
     margin: 80px;
     justify-content: space-between;
 }
+.con_btn{
+    width: 600px;
+    height: 60px;
+    margin-top: 30px;
+    display: flex;
+     margin-left: 300px;
+    justify-content: space-around;
+}
 
 .sub1:hover {
-    background-color: rgba(243, 86, 183, 0.74);
+    background-color: rgba(196, 38, 182, 0.74);
     color: white;
-    width: 310px;
-    height: 330px;
+    width: 320px;
+    height: 340px;
     border: 4px solid rgb(95, 205, 248);
-   
-   
-} 
+
+
+}
 
 .sub1 {
     border: 4px solid black;
@@ -77,29 +106,35 @@ font-size: large;
     padding: 10px;
 
 }
-.ice{
+
+.ice {
     width: 400px;
     height: 450px;
     /* margin: 70px 0px 0px 200px; */
     margin: 10px 0px 0px 200px;
-    
+
 }
-.point{
-margin: 80px 0px  0px 150px;
-width: 500px;
-font-size: x-large;
+
+.point {
+    margin: 80px 0px 0px 150px;
+    width: 500px;
+    font-size: x-large;
 }
-.point:hover{
+
+.point:hover {
     color: chocolate;
 }
-.intro{
+
+.intro {
     display: flex;
-   
+
 }
-.footer{
-    background-color:rgba(248, 232, 2, 0.925) ;
+
+.footer {
+    background-color: rgba(248, 232, 2, 0.925);
     width: 100%;
-    height: 700px;
-    color:darkred;
-    
+    height: 650px;
+    color: darkred;
+    overflow: hidden;
+
 }
