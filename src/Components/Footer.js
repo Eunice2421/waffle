@@ -6,7 +6,15 @@ import { useNavigate } from 'react-router-dom'
 function Footer() {
     const use = useNavigate()
     return (
-        <><div className="footer ">
+        <>  
+            <div className=' mt-10 mb-10 ml-32'>
+            <button onClick={() => use("/Content")} className=' w-52 h-10 bg-pink-300 text-slate-50   '>Content</button>
+            <button onClick={() => use("/")} className=' w-52 h-10 bg-pink-300 text-slate-50 ml-28 ' >Home</button>
+            <button onClick={() => use("/Intro")} className=' w-52 h-10 bg-pink-300 text-slate-50 ml-28 '>Intro</button>
+                <button onClick={() => use("/Search")} className=' w-52 h-10 bg-pink-300 text-slate-50 ml-28 '>Search</button> 
+                </div>
+
+            <div className="footer ">
             <div className='foot'>
             <h2 className="relative text-4xl font-semibold text-center text-fuchsia-400 top-5">CONTACT ME!!</h2>
             <p className="relative text-xl font-bold ml-28" style={{ top: "80px" }}>Phone no: 1455 1544 1544<br></br>wafflenspot7@gmail.com<br></br><br></br>
@@ -28,10 +36,7 @@ function Footer() {
                 <img src={pic3} alt="PIC" className='relative ml-72' style={{bottom:" 400px"}}></img></div>
 </div>
         </div>
-            <button onClick={() => use("/Content")} className=' w-52 h-10 bg-pink-300 text-slate-50 ml-60 mt-10 '>Content</button>
-            <button onClick={() => use("/")} className=' w-52 h-10 bg-pink-300 text-slate-50 ml-28 ' >Home</button>
-            <button onClick={() => use("/Intro")} className=' w-52 h-10 bg-pink-300 text-slate-50 ml-28 '>Intro</button>
-            <button onClick={() => use("/Search")} className=' w-52 h-10 bg-pink-300 text-slate-50 ml-28 '>Search</button>
+            
         </>
     )
 }

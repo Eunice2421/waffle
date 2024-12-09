@@ -21,7 +21,7 @@ function Nav() {
                 {/* <p className='pt-2.5'>Home</p>
                 <p className='pt-2.5'>Content</p>
                 <p className='pt-2.5'>Footer</p> */}
-                <Link to="/" className='pt-2.5'>Home</Link>
+                {/* <Link to="/" className='pt-2.5'>Home</Link> */}
                 <Link to="/Search" className='pt-2.5'>Search</Link>
                 <Link to="/Intro" className='pt-2.5'>Intro</Link>
                 <Link to="/content" className='pt-2.5'>Content</Link>
